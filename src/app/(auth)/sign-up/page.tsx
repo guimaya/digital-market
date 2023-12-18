@@ -10,7 +10,11 @@ import Link from "next/link";
 import { useForm } from "react-hook-form";
 
 const Page = () => {
-  const { register } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
 
   return (
     <>
