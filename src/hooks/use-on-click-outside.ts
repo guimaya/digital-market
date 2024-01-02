@@ -1,5 +1,4 @@
 import { RefObject, useEffect } from 'react'
-import { handler } from 'tailwindcss-animate'
 
 type Event = MouseEvent | TouchEvent
 
